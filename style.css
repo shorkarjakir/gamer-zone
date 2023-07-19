@@ -8,6 +8,15 @@
 
 /* header section  */
 /* nav bar  */
+.logo{
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+.logo img{
+  width: 5rem;
+  height: 3rem;
+}
 .logo-g{
   font-size: 45px;
   font-weight: 700;
@@ -30,6 +39,7 @@ header nav{
 
 nav ul{
   display: flex;
+  align-items: center;
 }
 nav li{
   list-style: none;
@@ -37,4 +47,23 @@ nav li{
 }
 nav li a{
   text-decoration: none;
+  color: #3C354F;
+text-align: center;
+font-size: 1.1rem;
+font-weight: 500;
+}
+.nav-follow-us{
+border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+padding: 1rem;
+}
+.nav-follow-us a{
+  margin-right: 24px;
+  align-items: center;
+  justify-content: center;
+
+}
+nav li img{
+ margin-right: 10px;
+ position: relative;
 }
