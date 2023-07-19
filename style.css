@@ -356,10 +356,17 @@ background: url(<path-to-image>), lightgray -7.209px 0px / 114.78% 100% no-repea
 /* career section  */
 .career{
  background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);;
+ display: flex;
+ justify-content: center;
+ gap: 0px;
+}
+.career img{
+  width: 580px;
+  
 }
 .career-content{
   padding-top: 50px;
-  padding-left: 80px;
+  padding-left: 100px;
 }
 .career-title{
 color: #FFF;
@@ -369,6 +376,7 @@ margin-bottom: 24px;
 .career-dis{
   color: #FFF;
   font-size: 1.1rem;
+  /* width: 650px; */
 }
 .career-list{
   display: flex;
