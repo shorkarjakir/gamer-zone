@@ -296,11 +296,9 @@ margin-bottom: 0px;
   color: #534C64;
 font-size: 1.1rem;
 padding-top: 0px;
-width: 300px;
 }
 .play-img img{
   width: 80%;
-  height: 90%;
   margin-top: 80px;
 }
 .img-small img{
@@ -353,4 +351,30 @@ background: url(<path-to-image>), lightgray -7.209px 0px / 114.78% 100% no-repea
  position: relative;
  left: 440px;
  bottom: 210px;
+}
+
+/* career section  */
+.career{
+ background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);;
+}
+.career-content{
+  padding-top: 50px;
+  padding-left: 80px;
+}
+.career-title{
+color: #FFF;
+font-size: 3rem;
+margin-bottom: 24px;
+}
+.career-dis{
+  color: #FFF;
+  font-size: 1.1rem;
+}
+.career-list{
+  display: flex;
+  
+}
+.content{
+color: #FFF;
+font-size: 1.2rem;
 }
