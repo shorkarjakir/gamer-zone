@@ -7,6 +7,10 @@
 }
 
 /* header section  */
+header{
+  /* margin-right: 50px;
+  margin-left: 50px; */
+}
 /* nav bar  */
 .logo{
   display: flex;
@@ -66,4 +70,15 @@ padding: 1rem;
 nav li img{
  margin-right: 10px;
  position: relative;
+}
+
+/* banner section  */
+.banner{
+  margin: 0 auto;
+  display: flex;
+}
+.banner-content{
+  text-align: center;
+  align-items: center;
+  height: 700px;
 }
