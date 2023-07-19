@@ -215,8 +215,7 @@ line-height: 45px;
 .funny-videos{
   text-align: center;
   margin-top: 80px;
-  gap: 0px;
-  
+ 
 }
 .funnu-img{
   display: flex;
@@ -257,10 +256,59 @@ padding-top: 0px;
 margin-top: 0px;
 }
 .funny-text{
-  width: 342px;
-  font-size: 1.2rem;
+  width: 300px;
+  font-size: 1rem;
   color: #534C64;
   font-weight: 500;
   line-height: 30px;
-  margin: 0 auto;
+  text-align: left;
+  margin-top: 5px;
+ 
+}
+
+/* play section  */
+.play-section{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+
+}
+.play-container{
+  text-align: right;
+  margin-right: 100px;
+  margin-bottom: 280px;
+
+}
+.play-instantly{
+  background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.play-title{
+font-size: 3rem;
+color: #0B0223;
+margin-bottom: 0px;
+}
+.play-discription{
+  color: #534C64;
+font-size: 1.1rem;
+padding-top: 0px;
+width: 300px;
+}
+.play-img img{
+  width: 80%;
+  height: 90%;
+  margin-top: 80px;
+}
+.img-small img{
+border-radius: 8px;
+border: 5px solid #FFF;
+background: url(<path-to-image>), lightgray 0px -0.304px / 100% 117.229% no-repeat;
+width: 40%;
+height: 40%;
+position: relative;
+bottom: 310px;
+right: 130px;
 }
