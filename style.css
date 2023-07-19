@@ -208,3 +208,12 @@ font-size: 2rem;
 font-weight: 700;
 line-height: 45px;
 }
+
+/* funny videos  */
+.funny-videos{
+  text-align: center;
+}
+.funnu-img img{
+  width: 20%;
+  height: 20%;
+}
