@@ -272,6 +272,7 @@ margin-top: 0px;
   align-items: center;
   justify-content: center;
   gap: 100px;
+  margin-bottom: 0px;
 
 }
 .play-container{
@@ -311,4 +312,45 @@ height: 40%;
 position: relative;
 bottom: 310px;
 right: 130px;
+}
+
+/* onlie section  */
+
+.onlie-section{
+  display: flex;
+  margin-top: 0px;
+  align-items: center;
+  justify-content: center;
+}
+.onlie-container{
+  text-align: left;
+  margin-left: 80px;
+  margin-bottom: 280px;
+
+}
+.onlie-play-title{
+font-size: 3rem;
+color: #0B0223;
+}
+.play-games-online{
+ background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
+.online-discription{
+  color: #534C64;
+font-size: 1.1rem;
+}
+.onlie-img img{
+ width: 80%;
+}
+.img-online img{
+  border-radius: 8px;
+border: 5px solid #FFF;
+background: url(<path-to-image>), lightgray -7.209px 0px / 114.78% 100% no-repeat;
+ width: 40%;
+ position: relative;
+ left: 440px;
+ bottom: 210px;
 }
