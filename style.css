@@ -559,9 +559,23 @@ background-clip: text;
   }
   .banner{
     flex-direction: column-reverse;
-   
+    align-items: center;
+    background-position: center;
+    background-image: none;
+  }
+  .banner-content{
+    text-align: center;
+    background-image: url("./images/Group\ 14.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 875px;
+    width: 646px;
   }
   .banner img{
     width: 100%;
+
+  }
+  .banner-service, .button{
+    padding-left: 153px;
   }
 }
