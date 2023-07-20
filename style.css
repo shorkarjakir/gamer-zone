@@ -573,9 +573,58 @@ background-clip: text;
   }
   .banner img{
     width: 100%;
-
   }
   .banner-service, .button{
     padding-left: 153px;
   }
+  .gamer-section{
+    flex-direction: column;
+    margin-top: -332px;
+    align-items: center;
+  }
+  .gamer-container{
+    text-align: center;
+    margin-right: 0px;
+  }
+  .gamer-title{
+   text-align: center;
+  }
+  .gamer-discription{
+    width: 447px;
+    text-align: center;
+    font-size: 1rem;
+  }
+  .gamer-purpose{
+    margin-top: 50px;
+  }
+  .gamer-section .unleash{
+    font-size: 1.7rem;
+    text-align: center;
+  }
+  .online-games, .funny-videos-title{
+    font-size: 2rem;
+  }
+  .funny-discription{
+    font-size: 1rem;
+  }
+  .funnu-img{
+    flex-direction: column;
+    align-items: center;
+  }
+  .funnu-img img{
+    width: 100%;
+    height: 100%;
+  }
+  .funny-text{
+    width: 400px;
+    font-size: 14px;
+    text-align: center;
+  }
+  .special-play{
+    background-size: 395px;
+  }
+  .special-play img{
+    width: 15%;
+  }
+  
 }
