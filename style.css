@@ -539,3 +539,29 @@ background-clip: text;
   color: rgba(255, 255, 255, 0.60);
   margin-top: 15px;
 }
+
+/* responsive for mobile  */
+
+@media screen and (max-width: 576px) {
+  body{
+    margin: 0 auto;
+  
+  }
+  nav{
+    flex-direction: column;
+  }
+  ul{
+    flex-direction: column;
+    margin-top: -10px;
+  }
+  li{
+    margin-top: 36px;
+  }
+  .banner{
+    flex-direction: column-reverse;
+   
+  }
+  .banner img{
+    width: 100%;
+  }
+}
