@@ -667,5 +667,25 @@ background-clip: text;
     bottom: 250px;
     right: 160px;
   }
+  .onlie-section{
+    flex-direction: column-reverse;
+    position: relative;
+    bottom: 650px;
+    align-items: center;
+  }
+  .onlie-container{
+    text-align: center;
+  }
+  .onlie-img img{
+    position: relative;
+    left: 80px;
+    bottom: 200px;
+  }
+  .img-online img{
+    position: relative;
+    width: 35%;
+    left: 340px;
+    bottom: 350px;
+  }
 
 }
