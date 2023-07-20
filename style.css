@@ -217,6 +217,9 @@ line-height: 45px;
   margin-top: 80px;
  
 }
+.funny-videos .special-play{
+  margin-top: 35px;
+}
 .funnu-img{
   display: flex;
   justify-content: center;
@@ -226,6 +229,7 @@ line-height: 45px;
   width: 280px;
   height: 280px;
   padding-top: 30px;
+ 
   
 }
 .heading-funny{
@@ -263,9 +267,44 @@ margin-top: 0px;
   line-height: 30px;
   text-align: left;
   margin-top: 5px;
+  position: relative;
+  left: 10px;
  
 }
+.special-play{
+  background-image: url("./images/Rectangle7.png");
+  background-repeat: no-repeat;
+  background-size: 84%;
+  position: relative;
+  bottom: 10px;
+  left: 8px;
+  
+}
+.special-play img{
+  width: 15%;
+  justify-content: center;
+  position: relative;
+  bottom: 27px;
+  right: 19px;
+}
+.special-play .watch-now{
+  text-align: center;
+  position: relative;
+  bottom: 156px;
+  right: 19px;
+  
+}
+.funnu-img .special-text-play{
+  position: relative;
+  bottom: 65px;
+}
+.special-two{
+ position: relative;
+ right: 28px;
+}
+.special-text-two{
 
+}
 /* play section  */
 .play-section{
   display: flex;
