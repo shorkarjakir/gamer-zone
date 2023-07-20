@@ -457,23 +457,23 @@ margin-top: 40px;
 }
 .one-type{
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
-  margin-left: 80px;
-  margin-right: 80px;
   margin-bottom: 20px;
 }
 .game{
   display: flex;
   border-radius: 50px;
   background: #FAF9F6;
-  
+  justify-content: center;
+  align-items: center;
 }
 .game .nor-text{
  color: #0B0223;
 font-size: 1rem;
-padding-left: 10px;
-width: 180px;
+padding-left: 5px;
+width: 169px;
 }
 .game img{
   width: 20%;
@@ -686,6 +686,66 @@ background-clip: text;
     width: 35%;
     left: 340px;
     bottom: 350px;
+  }
+  .career{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+    padding-left: 0px;
+  }
+  .career-content{
+    padding-top: 70px;
+    padding-left: 50px;
+  }
+  .career-dis{
+    font-size: 0.9rem;
+    
+  }
+  .content{
+    font-size: 1rem;
+  }
+  .career img{
+    width: 100%;
+    padding-top: 50px;
+    position: relative;
+    right: 15px;
+  }
+  .btn-req{
+    font-size: 1rem;
+    padding: 15px 35px;
+    margin-top: 35px;
+  }
+  .games-list-section{
+    position: relative;
+    bottom: 537px;
+    height: 254px;
+    width: 494px;
+  }
+  .one-type{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    flex-direction: row;
+    gap: 10px;
+  }
+  .game{
+    text-align: center;
+    width: 153px;
+    height: 93px;
+    align-items: center;
+  }
+  .game img{
+    width: 18%;
+    text-align: center;
+  }
+  .game .nor-text{
+    font-size: 14px;
+    text-align: center;
+    padding-left: 0px;
+    width: 114x;
+    height: 15px;
   }
 
 }
