@@ -670,20 +670,22 @@ background-clip: text;
   .onlie-section{
     flex-direction: column-reverse;
     position: relative;
-    bottom: 650px;
+    bottom: 670px;
     align-items: center;
   }
   .onlie-container{
     text-align: center;
+ 
   }
   .onlie-img img{
+    width: 85%;
     position: relative;
-    left: 80px;
+    left: 35px;
     bottom: 200px;
   }
   .img-online img{
     position: relative;
-    width: 35%;
+    width: 30%;
     left: 340px;
     bottom: 350px;
   }
@@ -693,6 +695,8 @@ background-clip: text;
     align-items: center;
     height: 1000px;
     padding-left: 0px;
+    position: relative;
+    bottom: 900px;
   }
   .career-content{
     padding-top: 70px;
@@ -718,7 +722,7 @@ background-clip: text;
   }
   .games-list-section{
     position: relative;
-    bottom: 537px;
+    bottom: 800px;
     height: 254px;
     width: 494px;
   }
