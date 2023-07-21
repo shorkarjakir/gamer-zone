@@ -751,5 +751,32 @@ background-clip: text;
     width: 114x;
     height: 15px;
   }
+  .footer-menu{
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 350px;
+    gap: 30px;
+  }
+  .logo2{
+    margin-bottom: -20px;
+  }
+  .footer-img{
+    width: 470px;
+  }
+  .footer-img img{
+    margin-right: 75px;
+    align-items: center;
+    justify-content: center;
+    width: 9%;
+    position: relative;
+    right: 20px;
+
+  }
+  .footer-text{
+    width: 400px;
+  }
+  .footer-copyright{
+    margin-top: 50px;
+  }
 
 }
