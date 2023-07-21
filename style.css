@@ -751,6 +751,9 @@ background-clip: text;
     width: 114x;
     height: 15px;
   }
+  .footer-section{
+    margin-top: -650px;
+  }
   .footer-menu{
     flex-wrap: wrap;
     justify-content: center;
